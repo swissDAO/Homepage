@@ -30,13 +30,13 @@ export default function LandingPageHero() {
               fontWeight={600}
               fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
               lineHeight={'110%'}>
-                The First DAO <br />
-              <Text as={'span'} color={'red.400'}>
-                for Switzerland
+                The First DAO <br />for  {" "}
+              <Text as={'span'} color={'red.500'}>
+                 Switzerland
               </Text>
             </Heading>
-            <Text color={'gray.500'}>
-              Connect with other developers, blockchain enthusiasts, web3 newcomers and shape the Web3 and Blockchain Space in Switzerland.
+            <Text color={'gray.500'} fontSize="xl">
+              Connect with other Developers, Blockchain Enthusiasts, Web3 Newcomers and shape the Web3 and Blockchain Space in Switzerland.
             </Text>
             <Stack
               direction={'column'}
