@@ -44,7 +44,7 @@ export default function LandingPageHero() {
               align={'center'}
               alignSelf={'center'}
               position={'relative'}>
-            <Button leftIcon={<SiDiscord />} color='#5865F2' variant='outline' colorScheme='whiteAlpha' size='md'>
+            <Button mt="20" leftIcon={<SiDiscord />} color='#5865F2' variant='outline' colorScheme='whiteAlpha' size='md'>
                 Join Discord
             </Button>
               
