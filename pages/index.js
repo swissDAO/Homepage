@@ -14,12 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar/>
+
       <LandingPageHero/>
  
 
-      <footer className={styles.footer}>
-        
-      </footer>
+      
     </div>
   )
 }
