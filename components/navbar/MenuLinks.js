@@ -1,5 +1,4 @@
 import { Box, Stack } from "@chakra-ui/react";
-import MenuItem from "./menuItem";
 
 const MenuLinks = ({ isOpen }) => {
     return (
@@ -14,8 +13,6 @@ const MenuLinks = ({ isOpen }) => {
           direction={["column", "row", "row", "row"]}
           pt={[4, 4, 0, 0]}
         >
-          {/* <MenuItem to="/">Home</MenuItem>
-          <MenuItem to="/Learn more">Learn more </MenuItem> */}
         </Stack>
       </Box>
     );
