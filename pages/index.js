@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import LandingPageHero from '../components/sections/landing_page/hero/hero';
 
 import NavBar from '../components/navbar/Navbar';
