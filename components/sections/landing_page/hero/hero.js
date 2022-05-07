@@ -37,6 +37,9 @@ export default function LandingPageHero() {
                  Switzerland 🇨🇭
               </Text>
             </Heading>
+            <div></div>
+            <div></div>
+            <div></div>
             <Text color={'gray.500'} fontSize="xl">
               Connect with other Developers, Blockchain Enthusiasts, Web3 Newcomers and shape the Web3 and Blockchain Space in Switzerland.
             </Text>
