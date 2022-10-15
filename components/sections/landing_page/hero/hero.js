@@ -26,7 +26,6 @@ export default function LandingPageHero() {
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
             The First DAO <br />for  {" "}
-            {/* <Text as={'span'} color={'red.500'}> */}
             <Text
               bgGradient='linear(to-r, #E31D1C, #FF0080)'
               bgClip='text'
@@ -34,7 +33,7 @@ export default function LandingPageHero() {
               Switzerland.³
             </Text>
           </Heading>
-          <Stack textAlign={'left'}>
+          <Stack textAlign={'center'}>
             <Text fontSize="2xl">
               ³ web3 spaces w/ Meetups, Workshops and Hackerhouses in real life
             </Text>
