@@ -30,7 +30,7 @@ const NavBar = (props) => {
         </NextLink>
       </Button>
       <Button leftIcon={<SiDiscord />} color='black' variant='outline' colorScheme='whiteAlpha' size='sm'>
-        <NextLink href="https://discord.gg/yX8dZEvvXB" passHref isExternal>
+        <NextLink href="https://discord.com/invite/5kvQ3Q6G4x" passHref isExternal>
           <Link target="_blank" rel="noopener noreferrer">Join</Link>
         </NextLink>
       </Button>

@@ -45,7 +45,7 @@ export default function LandingPageHero() {
             </Text>
           </Stack>
           <Text fontSize="2xl">
-            Grab a ☕️ and read our 📖.
+            Grab a ☕️ and read our <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/100hBiuGn7VzweSgTpl_SsJA6UjHcsh81tqXx0b2DyBk/edit#heading=h.aasa0wyt1wn'>📖</a>.
           </Text>
           <Stack
             direction={'column'}
@@ -54,7 +54,7 @@ export default function LandingPageHero() {
             alignSelf={'center'}
             position={'relative'}>
             <Button mt="20" leftIcon={<SiDiscord />} color='#5865F2' variant='outline' colorScheme='whiteAlpha' size='md'>
-              <NextLink href="https://discord.gg/yX8dZEvvXB" passHref isExternal>
+              <NextLink href="https://discord.com/invite/5kvQ3Q6G4x" passHref isExternal>
                 <Link target="_blank" rel="noopener noreferrer">Join Discord</Link>
               </NextLink>
             </Button>
