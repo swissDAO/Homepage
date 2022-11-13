@@ -47,13 +47,25 @@ export default function LandingPageHero() {
           <Text fontSize="2xl">
             Grab a ☕️ and read our <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/100hBiuGn7VzweSgTpl_SsJA6UjHcsh81tqXx0b2DyBk/edit#heading=h.aasa0wyt1wn'>📖</a>.
           </Text>
+
+          <Stack
+              direction={'column'}
+              spacing={1}
+              align={'center'}
+              alignSelf={'center'}>
+            <Button mt="1" colorScheme='red' size='md'>
+              <NextLink href="https://forms.gle/qvDhsqWsJiT9fAVi6" passHref isExternal>
+                <Link target="_blank" rel="noopener noreferrer">Newsletter</Link>
+              </NextLink>
+            </Button>
+          </Stack>
           <Stack
             direction={'column'}
             spacing={3}
             align={'center'}
             alignSelf={'center'}
             position={'relative'}>
-            <Button mt="20" leftIcon={<SiDiscord />} color='#5865F2' variant='outline' colorScheme='whiteAlpha' size='md'>
+            <Button mt="1" leftIcon={<SiDiscord />} color='#5865F2' variant='outline' colorScheme='whiteAlpha' size='md'>
               <NextLink href="https://discord.com/invite/5kvQ3Q6G4x" passHref isExternal>
                 <Link target="_blank" rel="noopener noreferrer">Join Discord</Link>
               </NextLink>
